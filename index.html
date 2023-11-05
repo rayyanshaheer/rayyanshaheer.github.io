@@ -1,96 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Rayyan Shaheer's Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        header img {
-            max-width: 100px; /* Adjust the size of your logo as needed */
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            background-color: #333;
-        }
-
-        nav li {
-            display: inline;
-            margin: 10px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #007BFF;
-            color: #fff;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <img src="C:\Users\rayya\Documents\GitHub\rayyanshaheer.github.io\photos" alt="Rayyan Shaheer's Logo"> <!-- Replace "your-logo.png" with the actual logo file path -->
-    <h1>Welcome to My Personal Website</h1>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+<div class="wrapper">
+  <input type="checkbox" name="nav-check" id="nav-check" />
+  <section class="sec-about" id="sec-about">
+    <div class="content">
+      <h1>Who am I?</h1>
+      <p>My name is Rayyan Shaheer.</p>
+      <p>I am a computer science student with a keen interest in AI and various programming languages.</p>
+      <p>I have a basic understanding of C and HTML, and I'm eager to learn more.</p>
+      <p>While I may not have extensive experience, I can handle various programming tasks and projects.</p>
+      <p>Let's connect on social media:</p>
+      <ul class="soc-media">
+        <li><a href="https://twitter.com/rayyanshaheer" class="fa fa-twitter" target="_blank"></a></li>
+        <li><a href="https://www.facebook.com/rayyanshaheer2/" class="fa fa-facebook" target="_blank"></a></li>
+        <li><a href="https://www.instagram.com/rayyan_shaheer/" class="fa fa-instagram" target="_blank"></a></li>
+        <li><a href="https://www.linkedin.com/in/rayyanshaheer/" class="fa fa-linkedin" target="_blank"></a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="sec-portfolio" id="sec-portfolio">
+    <!-- Add images of your projects here -->
+  </section>
+  <section class="sec-contact" id="sec-contact">
+    <ul class="soc-media">
+      <li><a href="mailto:rayyanshaheer2@gmail.com" class="fa fa-envelope"></a></li>
     </ul>
-</nav>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I'm Rayyan Shaheer, an 18-year-old computer science student from Lahore, Pakistan. I have a strong interest in coding and AI.
-    </p>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-    <p>
-        Here, you can showcase your coding and AI projects and provide descriptions and links to them.
-    </p>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>
-        Feel free to contact me at rayyanshaheer@gmail.com
-    </p>
-</section>
-
-<footer>
-    <p>&copy; 2023 Rayyan Shaheer</p>
-</footer>
-
-</body>
-</html>
+  </section>
+  <section class="sec-home" id="sec-home">
+    <div class="content">
+      <h1>Hi and welcome to my portfolio.</h1>
+      <h2><a href="#sec-about">Who</a> am I?</h2>
+      <h2><a href="#sec-portfolio">What</a> I do?</h2>
+      <h2><a href="#sec-contact">Where</a> to find me?</h2>
+    </div>
+  </section>
+  <nav role="navigation">
+    <label for="nav-check"></label>
+    <ul class="navigation">
+      <li><a href="#sec-home">Home</a></li>
+      <li><a href="#sec-about">About</a></li>
+      <li><a href="#sec-portfolio">Portfolio</a></li>
+      <li><a href="#sec-contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
